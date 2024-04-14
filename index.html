@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Calculadora</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.min.js"></script>
+    <script type="module" src="script/main.js" defer></script>
+</head>
+<body>
+    
+    <h1 class="title">Calculadora</h1>
+    <div class="container">
+        
+        <div class="container__table__calculator">
+            <table class="table__calculator">
+            
+                <tr>
+                    <input class="visor" type="text" disabled>
+                </tr>
+            
+                <tr>
+                    <td class="td_button button__calculator">7</td>
+                    <td class="td_button button__calculator">8</td>
+                    <td class="td_button button__calculator">9</td>
+                    <td class="td_button button__calculator button__specific">C</td>
+                </tr>
+            
+                <tr>
+                    <td class="td_button button__calculator">4</td>
+                    <td class="td_button button__calculator">5</td>
+                    <td class="td_button button__calculator">6</td>
+                    <td class="td_button button__calculator">/</td>
+                </tr>
+            
+                <tr>
+                    <td class="td_button button__calculator">1</td>
+                    <td class="td_button button__calculator">2</td>
+                    <td class="td_button button__calculator">3</td>
+                    <td class="td_button button__calculator">X</td>
+                </tr>
+            
+                <tr>
+                    <td class="td_button button__calculator">0</td>
+                    <td class="td_button button__calculator ">=</td>
+                    <td class="td_button button__calculator">+</td>
+                    <td class="td_button button__calculator">-</td>
+                </tr>
+            </table>  
+        </div>
+
+
+        <div class="container__table__historic">
+            <h2 class="title__historic">Histórico</h2>
+            <table class="table__historic">
+            </table>
+        </div>
+    </div>
+</body>
+</html>
